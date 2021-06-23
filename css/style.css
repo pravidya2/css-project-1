@@ -23,9 +23,9 @@ body {
 }
 
 li:only-child {
-  color: yellowgreen;
+  color: rgb(218, 31, 118);
 }
 
 td:nth-child(1) {
-  color: yellow;
+  color: rgb(218, 31, 118);
 }
