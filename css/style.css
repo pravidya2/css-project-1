@@ -1,0 +1,31 @@
+/*concept of specificity
+inline style > # > . > e
+pseudo selector:  :hover, :first-child,:last-child,:nth-child(<>),:link,:link:visited
+*/
+body {
+  background-color: #aaa;
+}
+
+.title {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#contact-us {
+  color: green;
+}
+
+#contact-us:hover {
+  color: red;
+}
+
+li:only-child {
+  color: orange;
+}
+
+td:nth-child(1) {
+  color: orange;
+}
